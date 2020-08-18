@@ -1,6 +1,6 @@
 # covidAnalysisIndia
 
-To estimate the effectivness of the lockdown in India that was announced on 14/04/2020 using Robust Synthetic Control Module.
+To estimate the effect of the lockdown in India which was announced on 14/04/2020 using Robust Synthetic Control Method.
 
 ## Donor Pool csv file
 

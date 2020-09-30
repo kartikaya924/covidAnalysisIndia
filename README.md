@@ -33,7 +33,7 @@ tion may not be available.
 
 ## Methodology
 
-We filtered out donor pool based on various predictor variables such as income levels, population, movement restrictions and global mobility to find countries that were comparable to India during the ore intervention period.
+We filtered our donor pool based on various predictor variables such as income levels, population, movement restrictions and global mobility to find countries that were comparable to India during the pre intervention period.
 After that we performed our RSC using tslib library implementation and using no. of confirmed Covid cases as outcome variables.
 
 

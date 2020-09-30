@@ -12,8 +12,8 @@ Robust Synthetic Control (RSC) (Amjad, Shah, and Shen
 2018) is a recent variation of SC that can better handle noise
 and missing data. It takes a set of candidates for control
 group (countries, called donor pool) and creates a synthetic
-state (control group) by taking a weighted average of a con-
-vex combination of other counties (donor pool). RSC de-
+state (control group) by taking a weighted average of a con
+vex combination of other countries (donor pool). RSC de
 noises the data via singular value thresholding, which im
 putes missing information in the data matrix. Unlike clas
 sical synthetic control methods, it uses unobserved mean

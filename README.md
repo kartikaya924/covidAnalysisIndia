@@ -24,11 +24,11 @@ tion may not be available.
 ## Resources Used 
 
 1. Covid Data (https://raw.githubusercontent.com/RamiKrispin/coronavirus/master/csv/coronavirus.csv)
-2. Global Health Index Data (https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_latest.csv)
+2. Oxford Covid policy tracker (https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_latest.csv)
 3. Poverty Stats (https://datacatalog.worldbank.org/dataset/poverty-and-equity-database)
 4. Global Mobility Report (https://www.google.com/covid19/mobility/)
 5. Population Data (https://www.kaggle.com/tanuprabhu/population-by-country-2020)
-6. Oxford Covid policy tracker (https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_latest.csv)
+
 
 ## Methodology
 

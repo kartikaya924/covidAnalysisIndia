@@ -8,18 +8,9 @@ It contains the total number of confirmed cases from 22/01/2020 till 18/07/2020 
 
 ## Robust Synthetic Control 
 
-Robust Synthetic Control (RSC) (Amjad, Shah, and Shen
-2018) is a recent variation of SC that can better handle noise
-and missing data. It takes a set of candidates for control
-group (countries, called donor pool) and creates a synthetic
-state (control group) by taking a weighted average of a con
-vex combination of other countries (donor pool). RSC de
-noises the data via singular value thresholding, which im
-putes missing information in the data matrix. Unlike clas
-sical synthetic control methods, it uses unobserved mean
-values instead of noisy data. RSC is also much more robust, since it overcomes the challenge of missing data and
-works well in situations where sufficient covariate informa
-tion may not be available. 
+Robust Synthetic Control (RSC) (Amjad, Shah, and Shen 2018) is a recent variation of SC that can better handle noise and missing data. It takes a set of candidates for control group (countries, called donor pool) and creates a synthetic state (control group) by taking a weighted average of a con vex combination of other countries (donor pool). RSC de
+noises the data via singular value thresholding, which im putes missing information in the data matrix. Unlike classical synthetic control methods, it uses unobserved mean
+values instead of noisy data. RSC is also much more robust, since it overcomes the challenge of missing data and works well in situations where sufficient covariate information may not be available. 
 
 ## Resources Used 
 
@@ -32,7 +23,6 @@ tion may not be available.
 
 ## Methodology
 
-I filtered the donor pool based on various predictor variables such as income levels, population, movement restrictions and global mobility to find countries that were comparable to India during the pre intervention period.
-After that I performed our RSC using tslib library implementation by using total no. of confirmed Covid cases (per 15 days) as outcome variables and displayed a graph which shows the difference between the actual and the counterfactual outcomes.
+I filtered the donor pool based on various predictor variables such as income levels, population, movement restrictions and global mobility to find countries that were comparable to India during the pre intervention period. After that, I performed RSC through tslib library implementation by using total no. of confirmed Covid cases (per 15 days) as outcome variables and displayed a graph which shows the difference between the actual and the counterfactual outcomes.
 
 

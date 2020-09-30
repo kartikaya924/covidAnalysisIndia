@@ -4,7 +4,7 @@ To estimate the effect of the lockdown on the number of Covid cases in India, wh
 
 ## Donor Pool csv file
 
-It contains the number of confirmed cases from 22/01/2020 till 18/07/2020 for India and the donor pool.
+It contains the total number of confirmed cases from 22/01/2020 till 18/07/2020 (per 15 days) for India and the donor pool.
 
 ## Robust Synthetic Control 
 

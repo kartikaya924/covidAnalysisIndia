@@ -1,6 +1,6 @@
 # covidAnalysisIndia
 
-To estimate the effect of the lockdown in India which was announced on 14/04/2020 using Robust Synthetic Control Method. 
+To estimate the effect of the lockdown on the number of Covid cases in India, which was announced on 14/04/2020 using Robust Synthetic Control Method. 
 
 ## Donor Pool csv file
 
@@ -32,7 +32,7 @@ tion may not be available.
 
 ## Methodology
 
-I filtered our donor pool based on various predictor variables such as income levels, population, movement restrictions and global mobility to find countries that were comparable to India during the pre intervention period.
-After that we performed our RSC using tslib library implementation and using no. of confirmed Covid cases as outcome variables.
+I filtered the donor pool based on various predictor variables such as income levels, population, movement restrictions and global mobility to find countries that were comparable to India during the pre intervention period.
+After that I performed our RSC using tslib library implementation by using no. of confirmed Covid cases as outcome variables and displayed a graph which shows the difference between the actual and the counterfactual outcomes.
 
 

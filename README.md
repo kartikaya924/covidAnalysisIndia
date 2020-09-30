@@ -17,8 +17,7 @@ vex combination of other countries (donor pool). RSC de
 noises the data via singular value thresholding, which im
 putes missing information in the data matrix. Unlike clas
 sical synthetic control methods, it uses unobserved mean
-values instead of noisy data. RSC is also much more ro
-bust, since it overcomes the challenge of missing data and
+values instead of noisy data. RSC is also much more robust, since it overcomes the challenge of missing data and
 works well in situations where sufficient covariate informa
 tion may not be available. 
 
